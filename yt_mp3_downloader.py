@@ -42,7 +42,7 @@ def settings():
     settings_root.geometry("475x175")
     settings_root.iconbitmap(f"{icon_help}\images\icon.ico")
 
-    save_location_label = Label(settings_root, text = "Save Location Path:", padx= 20, pady= 20, bg = background_colour)
+    save_location_label = Label(settings_root, text = "Save Location Path:", padx = 20, pady = 20, bg = background_colour)
     save_location_label.grid(column = 0, row = 0)
     save_location_txt = Entry(settings_root, width = 50)
     save_location_txt.insert(0, config["SETTINGS"]["save_location"])
@@ -64,10 +64,10 @@ def settings():
             configfile.close()
 
             save_label = Label(settings_root, text = "Saved! :)", padx = 10, pady = 10, bg = background_colour, font = Custom_font)
-            save_label.grid(column = 0, row = 2)
+            save_label.grid(column = 0, row = 3)
 
     update_btn = Button(settings_root, text = "Save", fg = "black", command = save)
-    update_btn.grid(column = 2, row = 2)
+    update_btn.grid(column = 2, row = 3)
 
 def RainbowLabel():
     rainbow_colors = ['red','orange','yellow','green','blue', 'indigo','violet']
@@ -78,9 +78,9 @@ def RainbowLabel():
        
 Button(root, image = logo, command = lambda: webbrowser.open(random.choice(links))).grid(column = 0, row = 0, padx = 10, pady = 10, columnspan = 2, rowspan = 2)
 Custom_font = font.Font( family = "Comic Sans MS", size = 15, weight = "bold")
-welcome = Label(root, text = "Youtube to MP3/MP4 Converter", font = Custom_font)
+welcome = Label(root, text = "Youtube to MP3/MP4 Converter", font = Custom_font, bg = background_colour)
 welcome.grid(column = 2, row = 0, columnspan = 6, padx = 10, pady = 10)
-RainbowLabel()
+
 
 #Creates a settings tab and exit tab within the menu
 settings_menu = Menu(menubar, tearoff = False)
