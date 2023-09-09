@@ -63,7 +63,7 @@ def settings():
             config.write(configfile)
             configfile.close()
 
-            save_label = Label(settings_root, text = "Saved! :)", padx = 10, pady = 10, bg = background_colour, font = Custom_font)
+            save_label = Label(settings_root, text = "Saved! :)", padx = 10, pady = 10, font = Custom_font)
             save_label.grid(column = 0, row = 2)
 
     update_btn = Button(settings_root, text = "Save", fg = "black", command = save)
@@ -74,6 +74,7 @@ def RainbowLabel():
     colour = random.choice(rainbow_colors)
     welcome.config(bg = colour)
     welcome.after("100", RainbowLabel)
+RainbowLabel
 
        
 Button(root, image = logo, command = lambda: webbrowser.open(random.choice(links))).grid(column = 0, row = 0, padx = 10, pady = 10, columnspan = 2, rowspan = 2)
