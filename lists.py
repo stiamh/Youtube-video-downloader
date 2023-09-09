@@ -8,7 +8,11 @@ titles = ["Stephen's Youtube Converter",
           "Vodka is the one true holy spirit!",
           "Crazy? I was crazy once. They put me in a room. A rubber room. A rubber room with rats. They put me in a rubber room with rubber rats. Rubber rats? I hate rubber rats. They make me crazy. Crazy? I was crazy once. They put me in a room...",
           "I feel the rush, addicted to your touch",
-          "Funny vape :)"]
+          "Funny vape :)",
+          "Replacing Golden Discs since 2023",
+          "I don't want the place, but the fishy on me",
+          "Ni... Ni... Ni...",
+          "Tis but a scratch"]
 
 links = ["https://www.youtube.com/watch?v=qxDSTCaWVZY",
          "https://www.youtube.com/watch?v=h9zFzCl7hKk",
@@ -19,4 +23,7 @@ links = ["https://www.youtube.com/watch?v=qxDSTCaWVZY",
          "https://www.youtube.com/watch?v=ilRj6O_Yets",
          "https://www.youtube.com/watch?v=b53QJYP-lqY",
          "https://www.omfgdogs.com/#",
-         ]
+         "https://www.youtube.com/watch?v=sBoDRktXUok",
+         "https://www.youtube.com/watch?v=WwmxHKMiKcc",
+         "https://www.youtube.com/watch?v=ZClu_I6U6aM",
+         "https://www.youtube.com/watch?v=MKy-0ew-KtY"]
